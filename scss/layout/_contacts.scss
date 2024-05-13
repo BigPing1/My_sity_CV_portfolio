@@ -1,0 +1,32 @@
+.contact-section {
+  &__list {
+    padding: 0 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    @media screen and (min-width: $bp-desctop) {
+      flex-direction: row;
+    }
+  }
+
+  &__link {
+    color: var(--color-brand-dark);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+  }
+  &__logos {
+    width: 52px;
+    height: 52px;
+    fill: var(--color-brand-dark);
+    transition: 0.4s;
+
+    &:hover {
+      fill: lightgreen;
+    }
+  }
+}

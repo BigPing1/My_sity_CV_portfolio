@@ -1,0 +1,20 @@
+.section {
+  margin-bottom: 50px;
+
+  &__block {
+    width: 100%;
+    background-color: var(--color-brand-dark);
+    padding: 10px 0;
+    margin-bottom: 30px;
+  }
+  &__tytle {
+    color: var(--color-bcg);
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 35px;
+    }
+  }
+}

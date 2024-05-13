@@ -1,0 +1,4 @@
+--color-bgc: #ffffff;
+--color-brand-light: #023E8A;
+--color-brand-dark: #03045e;
+--color-text: #495035;
