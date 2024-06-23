@@ -54,8 +54,8 @@
     margin-bottom: 30px;
   }
   &__image {
-    width: 460px;
-    max-height: 460px;
+    width: 360px;
+    max-height: 360px;
     box-shadow: 5px -5px 0px var(--color-brand-dark);
     // margin-bottom: 40px;
 
@@ -67,8 +67,8 @@
     }
   }
   &__js-image {
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 350px;
+    max-height: 350px;
     flex-basis: 50%;
     @media screen and (min-width: $bp-desctop) {
       box-shadow: 20px -20px 0px var(--color-brand-dark);

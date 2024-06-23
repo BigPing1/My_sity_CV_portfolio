@@ -317,8 +317,8 @@ a {
   margin-bottom: 30px;
 }
 .about-me-section__image {
-  width: 460px;
-  max-height: 460px;
+  width: 360px;
+  max-height: 360px;
   -webkit-box-shadow: 5px -5px 0px var(--color-brand-dark);
           box-shadow: 5px -5px 0px var(--color-brand-dark);
 }
@@ -334,8 +334,8 @@ a {
   }
 }
 .about-me-section__js-image {
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 350px;
+  max-height: 350px;
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
 }
